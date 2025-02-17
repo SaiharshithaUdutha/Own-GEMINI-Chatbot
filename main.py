@@ -36,7 +36,8 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 Own Gemini-ChatBot")
+st.title("🤖 Own ChatBot")
+st.image("C:\Users\Sai Harshitha\Downloads\aiimage.jpeg")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
